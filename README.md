@@ -1,3 +1,3 @@
 # CV Template
 
-Easy CV template for rmarkdown using TeXworks.
+Easy CV template for Rmarkdown using TeXworks.
