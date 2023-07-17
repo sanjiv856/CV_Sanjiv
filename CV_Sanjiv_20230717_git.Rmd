@@ -4,8 +4,6 @@ position: "Ph.D. Biotechnology"
 aboutme: "Molecular Biology, Biotechnology, Protein Biochemistry, Bacteriology, Bioinformatics"
 address: \textbf{Faculty of Medicine and Health, Örebro University, Örebro, Sweden.}
 profilepic: Sanjiv2.jpg
-phone: +46 076 057 62 08
-email: "drsanjivk@gmail.com"
 github: sanjiv856
 linkedin: sanjiv-kumar-b246b44a
 orcid: 0000-0003-3514-8999
