@@ -1,0 +1,201 @@
+---
+name: "**Sanjiv Kumar**"
+position: "Ph.D. Biotechnology"
+aboutme: "Molecular Biology, Biotechnology, Protein Biochemistry, Bacteriology, Bioinformatics"
+address: \textbf{Faculty of Medicine and Health, Örebro University, Örebro, Sweden.}
+profilepic: Sanjiv2.jpg
+phone: +46 076 057 62 08
+email: "drsanjivk@gmail.com"
+github: sanjiv856
+linkedin: sanjiv-kumar-b246b44a
+orcid: 0000-0003-3514-8999
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv
+header-includes:
+- \usepackage{fancyhdr}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \floatplacement{figure}{H}
+- \usepackage{wrapfig}
+- \usepackage{xcolor}
+- \pagestyle{fancy}
+- \renewcommand{\footrulewidth}{0.4pt}
+- \fancyfoot[L]{\textcolor{lightgray}{`r format(Sys.time(), '%B %Y')`}}
+- \fancyfoot[C]{\textcolor{lightgray}{Sanjiv Kumar}}
+- \fancyfoot[R]{\textcolor{lightgray}{\thepage}}
+# header-includes:
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(fontawesome)
+# knitr::opts_chunk$set(fig.pos='H')
+# load.fontawesome()
+```
+# Profile 
+
+I am a highly efficient molecular biologist specializing in Bioinformatics, Protein Biochemistry, and Infection Biology, with more than 10 years of research experience. My expertise lies in the characterization of proteins, including enzyme kinetics, assay development, phylogenetic analysis, homology modelling, drug discovery, molecular docking, and MD simulations. I possess extensive knowledge and experience in Genomics, Metagenomics, and RNA-Seq data analysis tools and software. Additionally, I am proficient in applying these techniques within the realm of drug discovery targeting infectious pathogens. According to my colleagues, I am regarded as a sincere, helpful, and kind individual who is hardworking and effective at accomplishing tasks. 
+
+# Technical Skills
+
+Molecular biology techniques, Microbiology techniques, Protein biochemistry, Protein crystallography, Drug discovery, Bioinformatics (Pharmaceutical Bioinformatics, Genomic and Metagenomics data analysis), Programming in `R`, `Python`, `Bash`. Adept user of `UNIX`/`LINUX`.
+
+# Research Experience
+
+<!-- Working  -->
+\begin{wrapfigure}{L}{.10\textwidth}  
+ \begin{center}
+    \includegraphics[width=2.0cm]{ORULogo.png}  
+\end{center}
+\setlength{\hangindent}{-20pt}
+\setlength{\intextsep}{0pt}
+\end{wrapfigure}
+
+**<span style="font-size:1em;">Torbjörn Group, Faculty of Medicine and Health, Örebro University, Sweden.</span>** \hfill _**Örebro, Sweden**_  
+
+Researcher, Bioinformatics and Microbial Proteogenomics  \hfill _August 2021 - Present_  
+
+As a researcher with the Torbjörn Group, I am responsible for the understanding of the mechanism of action of anti-microbial peptides (AMPs) against bacterial and viral pathogens. With following roles:
+
+ - Understanding interactions of Plantaricin NC8 αβ with lipid bilayer model using MD simulations. 
+ - Identification of interaction of AMPs with the viral proteins using docking and simulations. 
+
+<!-- Working  -->
+\begin{wrapfigure}{L}{.10\textwidth}  
+ \begin{center}
+    \includegraphics[width=2.0cm]{KTHLogo.png}  
+\end{center}
+\setlength{\hangindent}{-20pt}
+\setlength{\intextsep}{0pt}
+\end{wrapfigure}
+
+**<span style="font-size:1em;">Srivastava Lab, Dept. of Chemistry, KTH Royal Institute of Technology</span>** \hfill _**Stockholm, Sweden**_  
+Researcher, Bioinformatics, Oomycetes Biology  \hfill _August 2017 - August 2021_  
+
+I was responsible for the development and implementation of research strategy towards novel anti-infectives against Oomycete pathogens, Horizon 2020 project. With following roles:
+
+ - Expression, purification and biochemical characterization of proteins from Oomycetes 
+ <!-- - Cell wall linkage analysis of various Oomycete pathogens, Horizon 2020 project -->
+ - Identification and characterization of protein targets and inhibitors for _S. parasitica_  <!-- and their _in-vitro_ assessment. -->
+
+<!-- Working  -->
+\begin{wrapfigure}{L}{.10\textwidth}  
+ \begin{center}
+    \includegraphics[width=2.0cm]{UconnLogo.png}  
+\end{center}
+\setlength{\hangindent}{-20pt}
+\setlength{\intextsep}{0pt}
+\end{wrapfigure}
+
+**<span style="font-size:1em;">Justin Radolf  Lab, University of Connecticut Health Center</span>** \hfill _**Connecticut, USA**_  
+Post-Doctoral Fellow, Bioinformatics, Infectious Biology \hfill _April 2015 - August 2017_  
+
+As a Post-Doctoral Fellow at UConn Health, I was involved with the characterization of rare Outer Membrane Proteins (OMPs) in _Treponema pallidum_. With following roles:
+
+ - Consensus computational framework to identify rare OMPs in _T. pallidum_
+ - Biophysical and experimental characterization of BAM – complex in _T. pallidum_ 
+ - Identification and analysis of sequence variations in _T. pallidum_ from clinical samples
+
+<!-- Working  -->
+\begin{wrapfigure}{L}{.10\textwidth}  
+ \begin{center}
+    \includegraphics[width=2.0cm]{IISERBLogo.png}  
+\end{center}
+\setlength{\hangindent}{-20pt}
+\setlength{\intextsep}{0pt}
+\end{wrapfigure}
+
+**<span style="font-size:1em;">Vineet Sharma Lab, Indian Institute of Science Education and Research, Bhopal (IISER-B)</span>** \hfill _**Bhopal, India**_  
+Post-Doctoral Fellow, Bioinformatics, Metagenomics and Systems Biology \hfill _December 2013 - February 2015_  
+
+As a Post-Doctoral Fellow at MetaBioSys lab, I was responsible for the Metagenomic analysis of human gut and polluted river microbiomes. With following roles:
+
+ - Reconstruction of bacterial and viral genomes from multiple human gut metagenomes
+ - Development of prediction tool for peptidoglycan hydrolases from bacterial genomes
+ - De novo assembly of genomes from human gut metagenomic data
+<!-- Working  -->
+\begin{wrapfigure}{L}{.10\textwidth}  
+ \begin{center}
+    \includegraphics[width=2.0cm]{IGIBLogo.png}  
+\end{center}
+\setlength{\hangindent}{-20pt}
+\setlength{\intextsep}{0pt}
+\end{wrapfigure}
+
+<!-- \hspace*{\fill} -->
+**<span style="font-size:1em;">S. Ramachandran Lab, Institute of Genomics and Integrative Biology</span>** \hfill _**New Delhi, India**_   
+Junior Research Fellow, Bacteriology \hfill _December 2007 - February 2015_  
+<!-- \hspace*{\fill}   -->
+I was responsible for the identification of novel adhesins from _Mycobacterium tuberculosis_, including:  
+• Characterization of novel potential adhesins of _M. tuberculosis_ H37RV and their experimental validation  
+• Characterization of a novel N-acetylmuramoyl-L-alanine amidase Rv3717 from _M. tuberculosis_ H37Rv  
+
+# Patent Filed
+ - Vaibhav Srivastava, **Sanjiv Kumar**, and Vincent Bulone (2020). “Treatment of saprolegniasis.” International Patent Application No.PCT/SE2020/050468, Filing date: May 7, 2020.  [[Link](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2020246927)]
+
+# Awards
+KTH Innovation Challenge Tech for the Global Goals award of 50000 SEK, jointly shared with Vaibhav Srivastava, awarded by KTH Royal Institute of Technology, Stockholm, Sweden (May 2018)
+•	Senior Research Fellowship from CSIR, New Delhi, India (March 2009 – February 2012)
+•	Junior Research Fellowship from CSIR, New Delhi, India, (March 2007 – February 2009)
+•	Defense Scholarship during graduation (B. V. Sc. & A. H.) (1998-2003)
+
+# Education
+
+<!-- Working  -->
+<!-- \begin{wrapfigure}{R}{.10\textwidth}   -->
+<!--  \begin{center} -->
+<!--     \includegraphics[width=1.0cm]{IGIBLogo.png}   -->
+<!-- \end{center} -->
+<!-- \setlength{\hangindent}{-40pt} -->
+<!-- \setlength{\intextsep}{10pt} -->
+<!-- \end{wrapfigure} -->
+
+**<span style="font-size:1em;">Institute of Genomics and Integrative Biology (CSIR-IGIB)</span>** \hfill _Delhi, India_  
+Ph.D. in Biotechnology \hfill _2014_
+
+**<span style="font-size:1em;">Lala Lajpat Rai University of Veterinary and Animal Sciences</span>** \hfill _Haryana, India_  
+Masters in Veterinary Sciences (M.V.Sc.), Veterinary Microbiology \hfill _2007_
+
+**<span style="font-size:1em;">Veterinary College, KVAFS University</span>** \hfill _Bangalore, Karnataka, India_  
+Bachelor of Veterinary Sciences & Animal Husbandry (B.V.Sc. & A.H.) \hfill _2004_
+
+# Training
+
+**Statistical analyses and visualization in R: I**, Södertörn University, _Stockholm, Sweden_, _Aug. 31 2021 - Jan. 31, 2022_ [[Credential](https://drive.google.com/file/d/1TmGIhYvEAUCNWD7lWYsxbxjQ7y80v-6d/view?usp=sharing)] •  **Applied Pharmaceutical Bioinformatics**, Uppsala University, _Uppsala, Sweden_, _Aug. 31 2021 - Jan. 31, 2022_ [[Credential](https://drive.google.com/file/d/1w54XtgMtQGFaAygCRrQiOfSzALfoWdK8/view)] •  **Pharmaceutical Bioinformatics**, Uppsala University, _Uppsala, Sweden_, _Aug. 31 - Nov. 01, 2020_ [[Credential](https://drive.google.com/file/d/12iLN_v139fyi-sXLBS6Dflrhapb81U2g/view?usp=sharing)] • **Applied Pharmaceutical Structural Bioinformatics**, Uppsala University, _Uppsala, Sweden_, _Aug. 31 - Oct.r 15, 2020_ [[Credential](https://drive.google.com/file/d/12iLN_v139fyi-sXLBS6Dflrhapb81U2g/view?usp=sharing)] • **RNA-Seq Data Analysis**, Workshop by National Bioinformatics Infrastructure Sweden (**NBIS**) and **SciLifeLab**, _Uppsala, Sweden_, _May 13 - 15, 2019_  [[Credential](https://drive.google.com/file/d/1q346hxeIJr0rdkLO_Z9K-4v88jdMH8KM/view?usp=sharing)].
+
+# Independent Coursework
+**Intro to Machine Learning**, Kaggle, _Mar. 2021_ [[Credential](https://www.kaggle.com/learn/certification/sanjiv856/intro-to-machine-learning)]  • **Python**, Kaggle, _Mar. 2021_ [[Credential](https://www.kaggle.com/learn/certification/sanjiv856/python)] • **Automate the Boring Stuff with Python Programming**, Udemy, _Jun. 2019_ [[Credential](https://udemy-certificate.s3.amazonaws.com/pdf/UC-GUFI85SI.pdf)] • **Python Programming Bootcamp**, Udemy, _Jun. 2019_ [[Credential](https://www.datacamp.com/statement-of-accomplishment/course/825c18da84c0cc7653bf4b1928d9550b6b4ab461)] • **Python for Absolute Beginners**, Udemy, _Jun. 2019_ [[Credential](https://www.udemy.com/certificate/UC-I6SOJON2/)] • **Introduction to Python**, DataCamp, _April 2019_ [[Credential](https://www.datacamp.com/statement-of-accomplishment/course/825c18da84c0cc7653bf4b1928d9550b6b4ab461)] • **Introduction to R Course**, DataCamp, _Nov. 2017_ [[Credential](https://www.datacamp.com/statement-of-accomplishment/course/a680518c646e1e99598e3f2f47b5fb659f4d86ec)].
+
+# Publications 
+For the complete list of publications please visit [*My Google Scholar Profile*](https://scholar.google.com/citations?user=ML7X29AAAAAJ&hl=en).
+
+First Author Peer-Reviewed Publications – **6** • Total Peer-Reviewed Publications – **21** • Popular Science Articles – **1**.
+
+**21**\. Kumar R, **Kumar S**, Bulone V, Srivastava V. (**2022**). Biochemical characterization and molecular insights into substrate recognition of pectin methylesterase from _Phytophthora infestans_. _**Computational and Structural Biotechnology Journal**_ 20:6023-32. [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2001037022004974)]  
+**20**\.	Srivastava, A., Biswas, S., Yadav, S., **Kumar, S**., Srivastava, V., & Mishra, Y. (**2021**). Acute cadmium toxicity and post-stress recovery: Insights into coordinated and integrated response/ recovery strategies of _Anabaena sp._ PCC 7120. _**Journal of Hazardous Materials**_ 411:124822. [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0304389420328132)]  
+**19**\. **Kumar S**, Mandal RS, Bulone V, Srivastava V. (2020). Identification of growth inhibitors of the fish pathogen _Saprolegnia parasitica_ using in silico subtractive proteomics, computational modelling, and biochemical validation. _**Frontiers in Microbiology**_ 11, 2533. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/33178154/)]  
+**18**\.	Murugan NA, **Kumar S**, Jeyakanthan J, Srivastava V. (2020). Searching for target-specific and multi-targeting organics for COVID-19 in the Drugbank database with a double scoring approach. _**Scientific Reports**_ 10(1), 19125. doi: 10.1038/s41598-020-75762-7. [[Scientific Reports](https://www.nature.com/articles/s41598-020-75762-7)]  
+**17**\.	Srivastava A, Biswas S, Yadav S, **Kumar S**, Srivastava V, Mishra Y. (2020). Acute cadmium toxicity and post-stress recovery: Insights into coordinated and integrated response/ recovery strategies of _Anabaena sp._ PCC 7120. _**Journal of Hazardous Materials**_. [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0304389420328132)]  
+**16**\.	Yadav S, Srivastava A, Biswas S, Chaurasia N, Singh SK, **Kumar S**, Srivastava V, Mishra Y. (2020) Comparison and optimization of protein extraction and two-dimensional gel electrophoresis protocols for liverworts. _**BMC Research Notes**_ 13, 60. https://doi.org/10.1186/s13104-020-4929-1. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/32028996/)]  
+**15**\.	Mittal P, Prasoodanan PK V, Dhakan DB, **Kumar S**, Sharma VK. (2019) Metagenome of a polluted river reveals a reservoir of metabolic and antibiotic resistance genes. _**Environmental Microbiome**_, 14: 5. [[BioMed Central](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-019-0345-3)]  
+**14**\.	Kaur, S., Srivastava, A., **Kumar, S.**, Srivastava, V., Ahluwalia, A.S. and Mishra, Y., (2019). Biochemical and proteomic analysis reveals oxidative stress tolerance strategies of _Scenedesmus abundans_ against allelochemicals released by _Microcystis aeruginosa_. _**Algal Research**_, 41, p.101525. [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2211926419302656)]  
+**13**\.	**Kumar, S.**, Caimano, M. J., Anand, A., Dey, A., Hawley, K. L., LeDoyt, M., La Vake, C., Cruz, A. R., Ramirez, L. G., Pastekova, L., Bezsonova I, Smajs D, Salazar J. C., Radolf J. D. (2018) Sequence variation of rare outer membrane protein β-barrel domains in clinical strains provides insights into the evolution of _Treponema pallidum_ subsp. pallidum, the syphilis spirochete. _**mBio**_ 9(3): e01006-18.[[PubMed](https://pubmed.ncbi.nlm.nih.gov/29895642/)]  
+**12**\.	Radolf J., **Kumar S.**, Smajs, D., Dey, A., Anand, A., Ledoyt, M., Karanian, C., Cruz, A., Ramirez, L., and Caimano, M. (2017). Insights into the evolution of syphilis spirochetes within at-risk populations: sequence variation of outer membrane protein β-barrel domains in clinical samples. _**Sexually Transmitted Infections**_ 93:A41. [[BMJ](https://sti.bmj.com/content/93/Suppl_2/A41.1)]  
+**11**\.	Puthenveetil, R., **Kumar S.**, Caimano, M. J., Dey, A., Anand, A., Vinogradova, O., and Radolf, J. D. (2017) The major outer sheath protein forms distinct conformers and multimeric complexes in the outer membrane and periplasm of _Treponema denticola_. _**Scientific Reports**_ 7, 13260. [[Scientific Reports](https://www.nature.com/articles/s41598-017-13550-6)]  
+**10**\. Radolf J.D., **Kumar S**. The _Treponema pallidum_ Outer Membrane. In: _**Current Topics in Microbiology and Immunology**_, 2017. Springer, Berlin, Heidelberg. doi:10.1007/82_2017_44. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/28849315/)]  
+**9**\. Gupta A+, **Kumar S+**, Prasoodanan VP, Harish K, Sharma AK, Sharma VK. (2016) Reconstruction of bacterial and viral genomes from multiple metagenomes. (+equal contribution). _**Frontiers in Microbiology**_.[[Frontiers](https://www.frontiersin.org/articles/10.3389/fmicb.2016.00469/)]  
+**8**\. Sharma AK, **Kumar S**, Harish K, Dhakan DB, Sharma VK. (2016) Prediction of peptidoglycan hydrolases-a new class of antibacterial proteins. _**BMC Genomics**_. 17(1):411. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/27229861/)]  
+**7**\. Sharma AK, Gupta A, **Kumar S**, Dhakan DB, Sharma VK. (2015) Woods: A fast and accurate functional annotator and classifier of genomic and metagenomic sequences. _**Genomics**_.106(1):1-6. [[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0888754315000543)]  
+**6**\. Puniya BL, Kulshreshtha D, Verma SP, **Kumar S**, Ramachandran S. (2013) Integrated gene co-expression network analysis in the growth phase of _Mycobacterium tuberculosis_ reveals new potential drug targets. _**Molecular BioSystems**_. 9(11):2798-815. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/24056838/)]  
+**5**\. **Kumar S**, Puniya BL, Parween S, Nahar P, Ramachandran S. (2013) Identification of novel adhesins of _M. tuberculosis_ H37Rv using integrated approach of multiple computational algorithms and experimental analysis. _**PloS One**_. 8(7): e69790.[[PubMed](https://pubmed.ncbi.nlm.nih.gov/23922800/)]  
+**4**\. Kumar A+, **Kumar S+**, Kumar D, Mishra A, Dewangan RP, Shrivastava P, et al. (2013) The structure of Rv3717 reveals a novel amidase from _Mycobacterium tuberculosis_. (+equal contribution). _**Acta Crystallographica Section D**_: Biological Crystallography. 69(12):2543-54. PDB ID: **4LQ6**. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/24311595/)]  
+**3**\. Kumar N, Shukla S, **Kumar S**, Suryawanshi A, Chaudhry U, Ramachandran S, et al. (2008) Intrinsically disordered protein from a pathogenic mesophile _M. tuberculosis_ adopts structured conformation at high temperature. _**Proteins**: Structure, Function, and Bioinformatics_. 71(3):1123-33. [[PubMed](https://pubmed.ncbi.nlm.nih.gov/18004752/)]  
+**2**\. Sindhu N, Sharma A, **Kumar S**, Jain V. (2007) Polymerase chain reaction assay for detection of _Staphylococcus aureus_ in buffalo milk. _**Italian Journal of Animal Science**_. 6(sup2):862-4. [[TandFonline](https://www.tandfonline.com/doi/abs/10.4081/ijas.2007.s2.862)]  
+**1**\. **Sanjiv K**, Puran C. (2006) Molecular diagnosis of brucellosis using polymerase chain reaction. _**Journal of Immunology and Immunopathology**_. 8(2):0972-561. [[IndianJournals](http://www.indianjournals.com/ijor.aspx?target=ijor:jii&volume=8&issue=2&article=abs029)]  
+
+# References
+References Available Upon Request.
